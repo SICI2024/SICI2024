@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+gdb.client.commands=set mem inaccessible-by-default off
+gdb.client.doStart=true
+gdb.client.executable=C\:\\Users\\Usuario\\AppData\\Roaming\\xPacks\\@gnu-mcu-eclipse\\arm-none-eabi-gcc\\8.2.1-1.7.1\\.content\\bin\\arm-none-eabi-gdb
+gdb.client.other=
+gdb.openocd.doDebugInRam=false
+gdb.openocd.doInitialReset=true
+gdb.openocd.doPreRunReset=true
+gdb.openocd.enableSemihosting=true
+gdb.openocd.init.other=
+gdb.openocd.initialReset.type=init
+gdb.openocd.preRun.other=
+gdb.openocd.preRunReset.type=halt
+gdb.server.doStart=true
+gdb.server.executable=C\:\\Users\\Usuario\\AppData\\Roaming\\xPacks\\@gnu-mcu-eclipse\\openocd\\0.10.0-12.1\\.content\\bin\\openocd.exe
+gdb.server.other=-s "C\:\\Users\\Usuario\\AppData\\Roaming\\xPacks\\@gnu-mcu-eclipse\\openocd\\0.10.0-12.1\\.content\\scripts"\r\n-f interface/stlink.cfg\r\n-f target/stm32f1x.cfg
