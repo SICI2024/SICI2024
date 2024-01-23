@@ -147,13 +147,13 @@ void WS2812_Send (char ledStrip)
 	}
 
 	switch (ledStrip) {
-	case '1': //PA0
+	case '1': //PA11
 		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_1, (uint32_t *)pwmData, indx);
 		break;
-	case '2': //PA1
+	case '2': //PA0
 		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_2, (uint32_t *)pwmData, indx);
 		break;
-	case '3': //PB0
+	case '3': //PA1
 		HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_3, (uint32_t *)pwmData, indx);
 		break;
 	case '4': //PB1
@@ -235,6 +235,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+  }
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
   /* USER CODE END 3 */

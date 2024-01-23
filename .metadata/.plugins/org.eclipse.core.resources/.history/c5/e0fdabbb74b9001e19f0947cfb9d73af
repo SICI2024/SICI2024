@@ -74,11 +74,11 @@ uint8_t LED_Mod[MAX_LED][4];  // for brightness
 
 void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim) {
   // Stop DMA based on the timer and channel
-  if (htim->Instance == TIM2 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1) {
+  if (htim->Instance == TIM1 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_4) {
     HAL_TIM_PWM_Stop_DMA(htim, TIM_CHANNEL_4);
-  } else if (htim->Instance == TIM2 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_2) {
+  } else if (htim->Instance == TIM2 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1) {
     HAL_TIM_PWM_Stop_DMA(htim, TIM_CHANNEL_1);
-  } else if (htim->Instance == TIM3 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_3) {
+  } else if (htim->Instance == TIM2 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_2) {
     HAL_TIM_PWM_Stop_DMA(htim, TIM_CHANNEL_2);
   } else if (htim->Instance == TIM3 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_4) {
     HAL_TIM_PWM_Stop_DMA(htim, TIM_CHANNEL_4);
@@ -147,20 +147,20 @@ void WS2812_Send (char ledStrip)
 	}
 
 	switch (ledStrip) {
-	case '1': //PA0
+	case '1': //PA11
 		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_1, (uint32_t *)pwmData, indx);
 		break;
-	case '2': //PA1
-		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_2, (uint32_t *)pwmData, indx);
+	case '2': //PA0
+		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_4, (uint32_t *)pwmData, indx);
 		break;
-	case '3': //PB0
+	case '3': //PA1
 		HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_3, (uint32_t *)pwmData, indx);
 		break;
 	case '4': //PB1
 		HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_4, (uint32_t *)pwmData, indx);
 		break;
 	default: //same as case 1
-		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_1, (uint32_t *)pwmData, indx);
+		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_4, (uint32_t *)pwmData, indx);
 		break;
 	}
 	//HAL_TIM_PWM_Start_DMA(&htim1, TIM_CHANNEL_4, (uint32_t *)pwmData, indx);
@@ -235,6 +235,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+  }
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
   /* USER CODE END 3 */

@@ -216,3 +216,78 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-01-16 23:51:00.514
 !MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2024-01-17 12:37:34.486 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-17 12:38:09.259
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-17 12:38:09.775
+!MESSAGE Log4j initialized with config file C:\Users\Usuario\Documents\TESIS2023\SICI2024\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-17 12:38:37.787
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-17 13:51:52.039
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\bin\openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -s C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\scripts -f interface/stlink.cfg -f target/stm32f1x.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-17 13:51:52.155
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-20 17:29:13.701
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\bin\openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -s C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\scripts -f interface/stlink.cfg -f target/stm32f1x.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-20 17:29:13.833
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-20 17:31:40.184
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\bin\openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -s C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\scripts -f interface/stlink.cfg -f target/stm32f1x.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-20 17:31:40.285
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-20 17:35:42.743
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\bin\openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -s C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\scripts -f interface/stlink.cfg -f target/stm32f1x.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-20 17:35:42.827
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2024-01-22 12:31:41.611 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-01-22 12:31:47.550
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-22 12:32:04.283
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-22 12:32:04.594
+!MESSAGE Log4j initialized with config file C:\Users\Usuario\Documents\TESIS2023\SICI2024\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-22 12:33:08.280
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-22 17:03:23.853
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\bin\openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -s C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\scripts -f interface/stlink.cfg -f target/stm32f1x.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-22 17:03:23.969
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-22 17:07:11.714
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\bin\openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -s C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\scripts -f interface/stlink.cfg -f target/stm32f1x.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-22 17:07:11.799
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-22 19:23:23.694
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\bin\openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -s C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\openocd\0.10.0-12.1\.content\scripts -f interface/stlink.cfg -f target/stm32f1x.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2024-01-22 19:23:23.810
+!MESSAGE C:\Users\Usuario\AppData\Roaming\xPacks\@gnu-mcu-eclipse\arm-none-eabi-gcc\8.2.1-1.7.1\.content\bin\arm-none-eabi-gdb --interpreter=mi2 --nx
